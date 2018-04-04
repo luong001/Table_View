@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		5B437E342061EB6B00C1699E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B437E332061EB6B00C1699E /* AppDelegate.swift */; };
-		5B437E362061EB6B00C1699E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B437E352061EB6B00C1699E /* ViewController.swift */; };
 		5B437E392061EB6B00C1699E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B437E372061EB6B00C1699E /* Main.storyboard */; };
 		5B437E3B2061EB6B00C1699E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B437E3A2061EB6B00C1699E /* Assets.xcassets */; };
 		5B437E3E2061EB6B00C1699E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B437E3C2061EB6B00C1699E /* LaunchScreen.storyboard */; };
+		5B437E482061EBA200C1699E /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B437E472061EBA200C1699E /* ItemsViewController.swift */; };
+		5B437E4A2061F29B00C1699E /* ItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B437E492061F29B00C1699E /* ItemStore.swift */; };
+		5B437E4C2061F3B900C1699E /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B437E4B2061F3B900C1699E /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5B437E302061EB6B00C1699E /* tableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B437E332061EB6B00C1699E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5B437E352061EB6B00C1699E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5B437E382061EB6B00C1699E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B437E3A2061EB6B00C1699E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B437E3D2061EB6B00C1699E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B437E3F2061EB6B00C1699E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B437E472061EBA200C1699E /* ItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
+		5B437E492061F29B00C1699E /* ItemStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemStore.swift; sourceTree = "<group>"; };
+		5B437E4B2061F3B900C1699E /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +58,14 @@
 		5B437E322061EB6B00C1699E /* tableView */ = {
 			isa = PBXGroup;
 			children = (
+				5B437E472061EBA200C1699E /* ItemsViewController.swift */,
+				5B437E4B2061F3B900C1699E /* Item.swift */,
 				5B437E332061EB6B00C1699E /* AppDelegate.swift */,
-				5B437E352061EB6B00C1699E /* ViewController.swift */,
 				5B437E372061EB6B00C1699E /* Main.storyboard */,
 				5B437E3A2061EB6B00C1699E /* Assets.xcassets */,
 				5B437E3C2061EB6B00C1699E /* LaunchScreen.storyboard */,
 				5B437E3F2061EB6B00C1699E /* Info.plist */,
+				5B437E492061F29B00C1699E /* ItemStore.swift */,
 			);
 			path = tableView;
 			sourceTree = "<group>";
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B437E362061EB6B00C1699E /* ViewController.swift in Sources */,
+				5B437E4C2061F3B900C1699E /* Item.swift in Sources */,
+				5B437E482061EBA200C1699E /* ItemsViewController.swift in Sources */,
+				5B437E4A2061F29B00C1699E /* ItemStore.swift in Sources */,
 				5B437E342061EB6B00C1699E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
